@@ -1,0 +1,652 @@
+@charset "utf-8";
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 微软雅黑;
+}
+header {
+  .top {
+    height: 60px;
+    width: 100%;
+    background-image: url("../img/1-1.jpg");
+    background-size: 100% 60px;
+  }
+  .nav1 {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    .ul1 {
+      margin-left: 40px;
+      list-style: none;
+    }
+    a {
+      font-family: 微软雅黑;
+      color: #B0B0B0;
+      float: left;
+      margin-left: 20px;
+      line-height: 40px;
+      text-decoration: none;
+      font-size: 13px;
+      &:hover {
+        color: white;
+      }
+    }
+      .ul2 {
+        list-style: none;
+        margin-right: 45px;
+        a {
+          background-color: black;
+          font-family: 微软雅黑;
+          color: #B0B0B0;
+          display: inline-block;
+          float: right;
+          &:hover {
+            color: white;
+
+          }
+        }
+        .a1{
+          width: 100px;
+          height: 40px;
+          padding-left: 10px;
+        }
+        .a1:hover{
+          background-color: white;
+          color: red;
+        }
+        }
+    .a1{
+      width: 40px;
+      height: 40px;
+    }
+    .a1:hover .a_div{
+      height: 100px;
+      width: 280px;
+      z-index: 111;
+      transition: height 0.25s;
+    }
+    .a_div {
+      width: 280px;
+      height: 0px;
+      transition: height 0.25s;
+      overflow: hidden;
+      position: relative;
+      right: 180px;
+      background-color: white;
+      border: 1px solid #B0B0B0;
+    }
+      p {
+        width: 280px;
+        height: 100px;
+        color: #000;
+        line-height: 100px;
+        overflow: hidden;
+        margin-left: 50px;
+        z-index: 99;
+      }
+    }
+  .nav2{
+    width: 100%;
+    height: 100px;
+    .div1{
+      width: 55px;
+      height: 55px;
+      margin-left: 60px;
+      margin-top: 25px;
+      opacity: 1;
+      background: #FF6700;
+      float: left;
+    }
+    .div2{
+      width: 140px;
+      height: 60px;
+      float: left;
+      margin-left: 15px;
+      margin-top: 25px;
+      margin-right: 20px;
+    }
+    .div3{
+      width: 700px;
+      height: 100px;
+      float: left;
+    }
+    ul{
+      list-style: none;
+      position: relative;
+      width: 680px;
+      height: 100px;
+      float: left;
+    }
+    li{
+      float: left;
+      height: 100px;
+    }
+    .a11{
+      float: left;
+      display: block;
+      height: 100px;
+      width: auto;
+      line-height: 100px;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 16px;
+      font-family: 微软雅黑;
+      color: #000;
+      &:hover {
+        color: red;
+      }
+    }
+    .div_li{
+      width: 1365px;
+      height: 0px;
+      transition: height 0.5s;
+      overflow: hidden;
+      position: absolute;
+      left: -290px;
+      top: 100px;
+      float: left;
+      border-top: 1px solid gainsboro;
+      background-color: white;
+    }
+    .div_li .a21{
+      width: 160px;
+      height: 110px;
+      float: left;
+      background-image: url("../img/1-3.jpg");
+    }
+    li:hover .div_li{
+      width: 1365px;
+      height: 230px;
+      transition: height 0.5s;
+    }
+    .img{
+      width: 160px;
+      height: 110px;
+      float: left;
+      border-right: 1px solid gainsboro;
+      margin-top: 40px;
+      margin-left: 40px;
+      .p1{
+        width: 90px;
+        height: 20px;
+        position: relative;
+        top: 10px;
+        left: 50px;
+        font-size: 13px;
+      }
+      .div_li .img1-1{
+        float: right;
+      }
+    }
+      .div4{
+        width: 310px;
+        height: 50px;
+        border: 1px solid #E0E0E0;
+        float: right;
+        margin-top: -75px;
+        margin-right: 60px;
+      }
+      input{
+        width: 240px;
+        height: 50px;
+        display: inline-block;
+        border: none;
+        float: left;
+      }
+      .a1{
+        display: inline-block;
+        width: 68px;
+        height: 50px;
+        border: 1px solid #E0E0E0 ;
+        float: left;
+        position: relative;
+        right: -220px;
+        top: -52px;
+      }
+    .input_a1{
+      width: 50px;
+      height: 20px;
+      display: inline-block;
+      background-color: #EEEEEE;
+      font-size: 13px;
+      line-height: 20px;
+      position: relative;
+      top: 15px;
+      left: -160px;
+      text-decoration: none;
+      &:hover{
+        color: white;
+        background: #FF6700;
+      }
+    }
+    .input_a2{
+      width: 90px;
+      height: 20px;
+      display: inline-block;
+      background-color: #EEEEEE;
+      font-size: 13px;
+      line-height: 20px;
+      position: relative;
+      top: -35px;
+      left: 140px;
+      text-decoration: none;
+      &:hover{
+        color: white;
+        background: #FF6700;
+      }
+    }
+    .search{
+      float: left;
+      width: 50px;
+      height: 51px;
+      margin-top: -73px;
+      margin-left: 240px;
+      border-left: 1px solid darkgray;
+    }
+    }}
+.section1{
+  width: 1300px;
+  height: 460px;
+  margin-top: 20px;
+}
+  .div1 {
+    width: 1300px;
+    height: 460px;
+  }
+  .div1-1 {
+    width: 235px;
+    height: 460px;
+    float: left;
+    margin-left: 60px;
+    background: #204262;
+    float: left;
+    ul {
+      list-style: none;
+      margin-top: 15px;
+    }
+    a {
+      height: 43px;
+      width: 210px;
+      display: block;
+      color: white;
+      font-size: 14px;
+      padding-left: 25px;
+      text-decoration: none;
+      line-height: 43px;
+      &:hover {
+        background: #FF6700;
+      }
+    }
+    .list1{
+      height: 460px;
+      width: 0;
+      overflow: hidden;
+      traisition: width 1s;
+      position: absolute;
+      top: 220px;
+      left: 295px;
+      background-color: white;
+    }
+      td{
+        width: 265px;
+        height: 75px;
+      }
+      .a1{
+        width: 160px;
+        height: 75px;
+        float: left;
+      }
+    .a1:hover{
+      background: white;
+    }
+      img{
+        float: left;
+        margin-top: 10px;
+      }
+      p{
+        color: #000;
+        margin-top: 10px;
+        margin-left: 45px;
+        font-size: 14px;
+        font-family: 微软雅黑;
+      &:hover{
+        color: orange;
+      }
+     }
+      .a2{
+        float: right;
+        width: 40px;
+        height: 20px;
+        display: inline-block;
+        margin-top: 20px;
+        padding-top: -100px;
+        border: 1px solid orange;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000;
+        padding-left: 10px;
+        font-family: 微软雅黑;
+      }
+    .a2:hover{
+      color: white;
+    }
+    }
+     .li1:hover .list1{
+       width: 540px;
+       height: 460px;
+       traisition: width 1s;
+       background-color: white;
+     }
+  .li1:hover .list2{
+    width: 280px;
+  }
+  .li1:hover .list3{
+    width: 820px;
+  }
+   .div1-2{
+      width: 1000px;
+      height: 460px;
+      float: left;
+      background-image: url("../img/2-8.jpg");
+    }
+.section2 {
+  margin-top: 20px;
+  width: 1300px;
+  height: 170px;
+  .div1 {
+    width: 230px;
+    height: 170px;
+    float: left;
+    margin-left: 60px;
+    background: #5F5750;
+    .div1-a {
+      display: inline-block;
+      width: 70px;
+      height: 70px;
+      float: left;
+      line-height: 170px;
+    }
+    p{
+      margin-top: -150px;
+      font-size: 11px;
+      color: #cdcac8;
+      text-decoration: none;
+      margin-left: 10px;
+    }
+    p:hover{
+      color: white;
+    }
+  }
+  .div2 {
+    width: 315px;
+    height: 170px;
+    margin-left: 19px;
+    float: left;
+  }
+}
+.section3 {
+  width: 100%;
+  height: 1050px;
+  .div_1 {
+    height: 85px;
+    width: 100%;
+    p {
+      float: left;
+      font-size: 23px;
+      font-family: 微软雅黑;
+      margin-left: 60px;
+      margin-top: 40px;
+    }
+    a {
+      float: right;
+      margin-right: 90px;
+      margin-top: 45px;
+      text-decoration: none;
+      color: #000;
+     &:hover{
+       color: orange;
+    }
+    }
+    
+  }
+}
+.section4 {
+  width: 100%;
+  height: 740px;
+  background: #F5F5F5;
+
+  .div_1 {
+    height: 85px;
+    width: 100%;
+    p {
+      float: left;
+      font-size: 23px;
+      font-family: 微软雅黑;
+      margin-left: 60px;
+      margin-top: 40px;
+    }
+    a {
+      float: right;
+      margin-right: 90px;
+      margin-top: 45px;
+      text-decoration: none;
+      color: #000;
+
+   &:hover{
+     color: orange;
+   } }
+  }
+    .div2 {
+      width: 235px;
+      height: 615px;
+      margin-left: 70px;
+      float: left;
+    }
+  .div22{
+    width: 235px;
+    height: 615px;
+    margin-left: 70px;
+    float: left;
+  }
+  .div3{
+    width: 995px;
+    height: 615px;
+    float: left;
+  }
+  .sh,.sh1{
+    width: 230px;
+    height: 300px;
+    float: left;
+    margin-left: 15px;
+    background: white;
+   a{
+     color: #333333;
+     margin-left: 25px;
+     text-decoration: none;
+   }
+     p{
+       margin-left: 50px;
+     margin-top: 10px;
+     font-size: 14px;
+   }
+    .p1{
+      margin-top: -10px;
+      font-size: 13px;
+      color: darkgray;
+      margin-left: 35px;
+    }
+    .p2{
+      color: red;
+      margin-left: 90px;
+    }
+   }
+    .sh:hover,.sh1:hover{
+      margin-top: -10px;
+      transition: height 1s;
+      box-shadow: 5px 5px 5px 5px gainsboro;
+    }
+  .div2:hover{
+    margin-top: -10px;
+    transition: height 1s;
+    box-shadow: 5px 5px 5px 5px gainsboro;
+  }
+   }
+footer{
+  width: 100%;
+  height:440px;
+}
+.div11{
+  width: 1220px;
+  height: 80px;
+  border-bottom: 1px solid gainsboro;
+  margin-left: 60px;
+  a{
+    display: block;
+    float: left;
+    width: 170px;
+    height: 35px;
+    border-right: 1px solid gainsboro;
+    padding-left: 60px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    line-height: 35px;
+    font-size: 16px;
+    &:hover{
+      color: orange;
+    }
+  }
+}
+.div12{
+  width: 1220px;
+  height: 200px;
+  margin-left: 60px;
+  .div21{
+    width: 980px;
+    height: inherit;
+    float: left;
+  }
+  ul{
+    width: 160px;
+    height: 165px;
+    float: left;
+    margin-top: 30px;
+    list-style:none;
+  }
+  .li1{
+    height: 40px;
+    font-size: 14px;
+  }
+  li{
+    font-size: 12px;
+    height: 30px;
+  a {
+    text-decoration: none;
+    color: #000;
+  &:hover{
+    color: orange;
+  }
+  }
+  }
+  .div22{
+    width: 200px;
+    height: inherit;
+    float: left;
+  }
+  .pp1{
+    color: orange;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+  .pp2 {
+    font-size: 12px;
+    color: #000;
+    margin-left: 24px;
+    margin-top: 3px;
+  }
+  .pp3 {
+    margin-left: 50px;
+    margin-top: 3px;
+    font-size: 12px;
+  }
+  .aa1{
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    border: 1px solid orange;
+    color: orange;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 30px;
+    text-decoration: none;
+  }}
+.div13{
+  width: 1220px;
+  height: 160px;
+  margin-left: 35px;
+  background: #FAFAFA;
+  .div31{
+    width: 835px;
+    height: 100px;
+    float: left;
+    img{
+      background-color: #FF6700;
+      margin-left: 20px;
+      margin-top: 20px;
+      float: left;
+    }
+    }
+    .f1{
+      width: 750px;
+      height: 20px;
+      float: left;
+      margin-top: 15px;
+      margin-left: 10px;
+      a{
+        font-size: 11px;
+        text-decoration: none;
+        display: inline-block;
+        border-right: 1px solid #757575;
+        padding-right: 5px;
+        color: #757575;
+      }
+    }
+  .f2,.f3{
+    width: 750px;
+    height: 20px;
+    float: left;
+    color: #B0B0B0;
+    font-size: 11px;
+    margin-left: 10px;
+    margin-top: 1px;
+    a{
+      color: #B0B0B0;
+      &:hover{
+        color: orange;
+      }
+    }
+  }
+  .div32{
+    width: 370px;
+    height: 100px;
+    margin-left: 10px;
+    float: left;
+  }
+  .a11{
+    width: 90px;
+    height: 30px;
+    display: inline-block;
+    margin-top: 15px;
+    float: left;
+    text-decoration: none;
+  }
+  .div33{
+    margin-left: 500px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #C6C6C6;
+  }
+}
+
